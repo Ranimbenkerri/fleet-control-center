@@ -176,10 +176,4 @@ frontend/         application React
 .env.example      modèle d’identifiants BDD
 ```
 
-## Limites connues
 
-- Pas d’API météo : pas de STW vraie, pas de WxF.
-- `/api/kpis` somme des débits (dimensionnellement incorrect). L’UI utilise l’intégrale client sur la fenêtre.
-- Décimation uniforme, pas min/max par bucket.
-- Pas de tests automatisés.
-- Le livrable « drag de waypoint » n’est pas implémenté (proposition d’approche : route brouillon séparée de la télémétrie, hit-test Leaflet, recalcul local distance / ETA / fuel).
